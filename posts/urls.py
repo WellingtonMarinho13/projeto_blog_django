@@ -7,3 +7,4 @@ urlpatterns = [
     path('busca/', views.PostBusca.as_view(), name='post_busca'),
     path('post/<int:id>', views.PostDetalhes.as_view(), name='post_detalhes'),
 ]
+
