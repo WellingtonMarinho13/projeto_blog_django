@@ -7,6 +7,10 @@ __pycache__/
 *idea
 idea/
 /idea/
+/migratios/
+migrations/
+migrations
+projeto_blog.txt
 
 # C extensions
 *.so
