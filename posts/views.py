@@ -71,7 +71,7 @@ class PostDetalhes(UpdateView):
     context_object_name = 'post'
 
     def get_context_data(self, **kwargs):
-        contexto = super().get_context_data()
+        contexto = super().get_context_data(**kwargs)
         post = self.get_object()
         comentarios = Comentario.objects.filter(publicado_comentario=True,
                                                 post_comentario=post.id)
